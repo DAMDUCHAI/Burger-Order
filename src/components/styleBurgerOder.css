@@ -1,0 +1,129 @@
+
+#main{
+    width: 100%;
+    padding: 20px;
+    font-family: sans-serif;
+    
+}
+
+#main .auther{
+    color: red;
+}
+#main .title{
+    text-align: center;
+}
+#burger,#menu{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+.clear{
+    clear: both;
+}
+/* BURGER */
+.breadTop{
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bc581e),to(#e27b36));
+    background: -webkit-linear-gradient(#bc581e,#e27b36);
+
+    background: -o-linear-gradient(#bc581e,#e27b36);
+    background: linear-gradient(#bc581e,#e27b36);
+    border-radius: 50% 50% 0 0;
+    -webkit-box-shadow:inset -15px 0 #c15711;
+    box-shadow:inset -15px 0 #c15711;
+    height: 70px;
+    position: relative;
+
+}
+.breadBottom{
+    width: 50%;
+    height: 13%;
+    margin: 2% auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F08E4A),to(#e27b36));
+    background: -webkit-linear-gradient(#F08E4A,#e27b36);
+
+    background: -o-linear-gradient(#F08E4A,#e27b36);
+    background: linear-gradient(#F08E4A,#e27b36);
+    border-radius:  0 0 30px 30px;
+    -webkit-box-shadow:inset -15px 0 #c15711;
+    box-shadow:inset -15px 0 #c15711;
+    height:70px;
+    position: relative;
+
+}
+.salad{
+    width: 70%;
+    height: 7%;
+    margin: 2% auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#228c1d),to(#91ce50));
+    background: -webkit-linear-gradient(#228c1d,#91ce50);
+
+    background: -o-linear-gradient(#228c1d,#91ce50);
+    background: linear-gradient(#228c1d,#91ce50);
+    border-radius: 20px;
+    height: 10px;
+
+}
+
+.beef{
+    width: 50%;
+    height: 8%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7f3608),to(#702e05));
+    background: -webkit-linear-gradient(#7f3608,#702e05);
+
+    background: -o-linear-gradient(#7f3608,#702e05);
+    background: linear-gradient(#7f3608,#702e05);
+    margin: 2% auto;
+    border-radius: 15px;
+    height: 30px;
+
+}
+
+.cheese{
+    width: 60%;
+    height: 4.5%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4d004),to(#d6bb22));
+    background: -webkit-linear-gradient(#f4d004,#d6bb22);
+
+    background: -o-linear-gradient(#f4d004,#d6bb22);
+    background: linear-gradient(#f4d004,#d6bb22);
+    margin: 2% auto;
+    border-radius: 20px;
+    height: 25px;
+
+}
+/* MENU */
+.table{
+    width: 100%;
+}
+.table tr {
+    border-bottom:1px solid gray ;
+}
+.control-menu{
+display: flex;
+}
+*:focus {outline:none !important}
+.btn-control{
+    border: none ;
+    padding:3px 10px;
+    font-size: 10px;
+    border-radius:3px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-control:hover{
+    opacity: 0.8;
+}
+.quantity{
+    margin: 0 5px;
+}
+.plus{
+    background-color: rgb(70,179,95);
+}
+.minus{
+    background-color:rgb(224,74,86);
+}
+
+
